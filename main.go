@@ -9,7 +9,7 @@ import (
 func main() {
 	file, err := os.Open("messages.txt")
 	if err != nil {
-		fmt.Printf("Error opening file: %w", err)
+		fmt.Printf("Error opening file: %v", err)
 		return
 	}
 
